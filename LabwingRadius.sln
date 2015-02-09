@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LabwingRadius", "LabwingRadius", "{7C3DE873-F392-4F8A-BF54-0E548E827316}"
 EndProject
@@ -12,6 +12,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabwingRadius.WindowsPhone", "LabwingRadius\LabwingRadius.WindowsPhone\LabwingRadius.WindowsPhone.csproj", "{2235E068-3E2F-4BB0-AA70-A9580DEF1D22}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{EDEE5C17-54A8-4E5C-B03C-C22BD2BD6ED5}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+		TextFile2.docx = TextFile2.docx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDocument1", "WordDocument1\WordDocument1.csproj", "{362BF0F2-4117-445C-B057-4B061AD6BA8B}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -74,6 +80,16 @@ Global
 		{2235E068-3E2F-4BB0-AA70-A9580DEF1D22}.Release|x86.ActiveCfg = Release|x86
 		{2235E068-3E2F-4BB0-AA70-A9580DEF1D22}.Release|x86.Build.0 = Release|x86
 		{2235E068-3E2F-4BB0-AA70-A9580DEF1D22}.Release|x86.Deploy.0 = Release|x86
+		{362BF0F2-4117-445C-B057-4B061AD6BA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362BF0F2-4117-445C-B057-4B061AD6BA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362BF0F2-4117-445C-B057-4B061AD6BA8B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{362BF0F2-4117-445C-B057-4B061AD6BA8B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{362BF0F2-4117-445C-B057-4B061AD6BA8B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{362BF0F2-4117-445C-B057-4B061AD6BA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362BF0F2-4117-445C-B057-4B061AD6BA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362BF0F2-4117-445C-B057-4B061AD6BA8B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{362BF0F2-4117-445C-B057-4B061AD6BA8B}.Release|x64.ActiveCfg = Release|Any CPU
+		{362BF0F2-4117-445C-B057-4B061AD6BA8B}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
